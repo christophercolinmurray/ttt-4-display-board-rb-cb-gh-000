@@ -1,6 +1,6 @@
 # Define display_board that accepts a#{board and prints
 # out the current state.
-board [];
+board = [9];
 
 def display_board
   puts "  #{board[0]} #{board[1]} | #{board[2]} | ";
@@ -11,4 +11,4 @@ def display_board
 end
 
 
-display_board(board)
+display_board(board);
